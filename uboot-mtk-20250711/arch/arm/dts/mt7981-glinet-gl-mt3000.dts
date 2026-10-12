@@ -19,7 +19,7 @@
 	};
 
 	config {
-		bootcmd = "mtkboardboot";
+		bootcmd = "mw.l 0x11d00310 0x11200000; mtkboardboot";
 		blink_led = "blue:run";
 		system_led = "white:system";
 		gpio_power_clr = <12>;
