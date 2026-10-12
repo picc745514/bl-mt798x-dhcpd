@@ -45,7 +45,7 @@
 
 		led-1 {
 			label = "blue:run";
-			gpios = <&pio 31 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 34 GPIO_ACTIVE_LOW>;
 		};
 	};
 
