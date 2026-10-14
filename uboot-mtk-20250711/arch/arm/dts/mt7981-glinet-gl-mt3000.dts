@@ -40,7 +40,7 @@
 
 		led-0 {
 			label = "white:system";
-			gpios = <&pio 30 GPIO_ACTIVE_LOW>;
+			gpios = <&pio 8 GPIO_ACTIVE_LOW>;
 		};
 
 		led-1 {
